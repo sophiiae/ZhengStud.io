@@ -30,15 +30,17 @@ html {
 
 /*---------- Cover ----------*/
 .cover {
-  background: url(../img/coding.jpg) no-repeat top center fixed;
+  background: url(../img/coding.jpg) no-repeat top center;
 	background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  margin: 0;
-  padding: 0;
   height: 100%;
+}
+
+.cover button{
+  text-align: right;
 }
 
 .intro {
@@ -214,7 +216,7 @@ footer {
   color: #bbb9b9;
 }
 
-/*---------- Ccolor Bars ----------*/
+/*---------- Color Bars ----------*/
 .bar {
     width: 100px;
     height: 6px;
