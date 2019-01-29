@@ -127,28 +127,6 @@ html {
   padding-left: 60px;
 }
 
-/*---------- Quotes ----------*/
-.quotes-bg {
-  background-image: url(../img/study.jpeg);
-  background-repeat: no-repeat;
-  height: 120px;
-  margin-top: 48px;
-}
-
-.quotes {
-  padding-left: 96px;
-  padding-top: 22px;
-  background-image: linear-gradient(to right, black, white);
-  opacity: 0.6;
-  height: 100%;
-  color: #e3e3e3;
-}
-
-.quotes h2, .quotes h4 {
-  text-transform: uppercase;
-  text-shadow: 2px 1px 10px #000;
-  font-size: 180%;
-}
 /*---------- Projects ----------*/
 .project-bg {
   background-image: url(../img/p.jpg);
@@ -162,18 +140,24 @@ html {
 }
 
 .project {
-  height: 500px;
+  height: 540px;
   text-align: center;
 }
 
+.project h1 {
+  padding-top: 10px;
+  text-align: left;
+  color: white;
+}
+
 .p-row {
-  padding-top: 60px;
+  padding-top: 20px;
   color: white;
 }
 
 .p-text{
-  padding-left: 30px;
-  padding-right: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .p-img {
@@ -306,26 +290,9 @@ footer {
     padding: 0 20px 0 20px;
   }
 
-  .quotes-bg {
-    background-image: url(../img/study.jpeg);
-    background-repeat: no-repeat;
-    height: 100px;
-    margin-top: 48px;
-  }
-
-  .quotes {
-    padding-left: 6%;
-    padding-top: 22px;
-    background-image: linear-gradient(to right, black, white);
-    opacity: 0.6;
-    height: 100%;
-    color: #e3e3e3;
-  }
-
-  .quotes h2, .quotes h4 {
-    text-transform: uppercase;
-    text-shadow: 2px 1px 10px #000;
-    font-size: 150%;
+  .p-text{
+    padding-left: 30px;
+    padding-right: 30px;
   }
 }
 
@@ -349,26 +316,9 @@ footer {
     color: #e0e0e4;
   }
 
-  .quotes-bg {
-    background-image: url(../img/study.jpeg);
-    background-repeat: no-repeat;
-    height: 110px;
-    margin-top: 48px;
-  }
-
-  .quotes {
-    padding-left: 96px;
-    padding-top: 22px;
-    background-image: linear-gradient(to right, black, white);
-    opacity: 0.6;
-    height: 100%;
-    color: #e3e3e3;
-  }
-
-  .quotes h2, .quotes h4 {
-    text-transform: uppercase;
-    text-shadow: 2px 1px 10px #000;
-    font-size: 160%;
+  .p-text{
+    padding-left: 20px;
+    padding-right: 20px;
   }
 }
 
@@ -400,26 +350,9 @@ footer {
     padding: 0 20px 0 20px;
   }
 
-  .quotes-bg {
-    background-image: url(../img/study.jpeg);
-    background-repeat: no-repeat;
-    height: 100px;
-    margin-top: 48px;
-  }
-
-  .quotes {
-    padding-left: 6%;
-    padding-top: 22px;
-    background-image: linear-gradient(to right, black, white);
-    opacity: 0.6;
-    height: 100%;
-    color: #e3e3e3;
-  }
-
-  .quotes h2, .quotes h4 {
-    text-transform: uppercase;
-    text-shadow: 2px 1px 10px #000;
-    font-size: 150%;
+  .p-text{
+    padding-left: 5px;
+    padding-right: 5px;
   }
 }
 
@@ -443,26 +376,13 @@ footer {
     color: #e0e0e4;
   }
 
-  .quotes-bg {
-    background-image: url(../img/study.jpeg);
-    background-repeat: no-repeat;
-    height: 90px;
-    margin-top: 40px;
+  .project {
+    height: 1300px;
+    text-align: center;
   }
-
-  .quotes {
-    padding-left: 96px;
-    padding-top: 22px;
-    background-image: linear-gradient(to right, black, white);
-    opacity: 0.6;
-    height: 100%;
-    color: #e3e3e3;
-  }
-
-  .quotes h2, .quotes h4 {
-    text-transform: uppercase;
-    text-shadow: 2px 1px 10px #000;
-    font-size: 110%;
+  .p-img {
+    width: 230px;
+    margin-top: 10px;
   }
 }
 
@@ -501,28 +421,6 @@ footer {
   .sidepadding {
     padding: 0 10px 0 10px;
   }
-
-  .quotes-bg {
-    background-image: url(../img/study.jpeg);
-    background-repeat: no-repeat;
-    height: 80px;
-    margin-top: 30px;
-  }
-
-  .quotes {
-    padding-left: 6%;
-    padding-top: 3%;
-    background-image: linear-gradient(to right, black, white);
-    opacity: 0.6;
-    height: 100%;
-    color: #e3e3e3;
-  }
-
-  .quotes h2, .quotes h4 {
-    text-transform: uppercase;
-    text-shadow: 2px 1px 10px #000;
-    font-size: 110%;
-  }
 }
 
 @media (max-width: 576px) {
@@ -560,28 +458,6 @@ footer {
   .sidepadding {
     padding: 0 10px 0 10px;
   }
-
-  .quotes-bg {
-    background-image: url(../img/study.jpeg);
-    background-repeat: no-repeat;
-    height: 60px;
-    margin-top: 30px;
-  }
-
-  .quotes {
-    padding-left: 8%;
-    padding-top: 12px;
-    background-image: linear-gradient(to right, black, white);
-    opacity: 0.6;
-    height: 100%;
-    color: #e3e3e3;
-  }
-
-  .quotes h2, .quotes h4 {
-    text-transform: uppercase;
-    text-shadow: 2px 1px 10px #000;
-    font-size: 88%;
-  }
 }
 
 
@@ -606,36 +482,6 @@ footer {
     color: #e0e0e4;
   }
 
-
-  .quotes-bg {
-    background-image: url(../img/study.jpeg);
-    background-repeat: no-repeat;
-    height: 46px;
-    margin-top: 30px;
-  }
-
-  .padding {
-    padding: 30px 12px 30px 12px;
-  }
-
-  .sidepadding {
-    padding: 0 10px 0 10px;
-  }
-
-  .quotes {
-    padding-left: 6%;
-    padding-top: 1.6%;
-    background-image: linear-gradient(to right, black, white);
-    opacity: 0.6;
-    height: 100%;
-    color: #e3e3e3;
-  }
-
-  .quotes h2, .quotes h4 {
-    text-transform: uppercase;
-    text-shadow: 2px 1px 10px #000;
-    font-size: 70%;
-  }
 }
 
 
@@ -668,26 +514,9 @@ footer {
     padding: 0 10px 0 10px;
   }
 
-  .quotes-bg {
-    background-image: url(../img/study.jpeg);
-    background-repeat: no-repeat;
-    height: 46px;
-    margin-top: 30px;
-  }
-
-  .quotes {
-    padding-left: 10%;
-    padding-top: 3%;
-    background-image: linear-gradient(to right, black, white);
-    opacity: 0.6;
-    height: 100%;
-    color: #e3e3e3;
-  }
-
-  .quotes h2, .quotes h4 {
-    text-transform: uppercase;
-    text-shadow: 2px 1px 10px #000;
-    font-size: 60%;
+  .project {
+    height: 1400px;
+    text-align: center;
   }
 }
 
