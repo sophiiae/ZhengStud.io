@@ -149,6 +149,36 @@ html {
   text-shadow: 2px 1px 10px #000;
   font-size: 180%;
 }
+/*---------- Projects ----------*/
+.project-bg {
+  background-image: url(../img/p.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: auto;
+  margin-top: 48px;
+  object-fit: cover;
+  background-position: center;
+}
+
+.project {
+  height: 500px;
+  text-align: center;
+}
+
+.p-row {
+  padding-top: 60px;
+  color: white;
+}
+
+.p-text{
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.p-img {
+  width: 230px;
+}
 
 /*---------- Education ----------*/
 .education {
