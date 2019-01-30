@@ -1,4 +1,4 @@
-# Sophiazheng.ca
+# ZhengStud.io
 Personal Website
 
-Visit [sophiazheng.ca](http://www.sophiazheng.ca)
+Visit [zhengstud.io](http://www.zhengstud.io)

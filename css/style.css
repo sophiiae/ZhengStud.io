@@ -127,41 +127,28 @@ html {
   padding-left: 60px;
 }
 
-/*---------- Projects ----------*/
-#projects {
-  background-image: url(../img/p.jpg);
-  text-align: center;
+/*---------- Quotes ----------*/
+.quotes-bg {
+  background-image: url(../img/study.jpeg);
+  background-repeat: no-repeat;
+  height: 120px;
+  margin-top: 48px;
 }
 
-.projectbg {
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
+.quotes {
+  padding-left: 96px;
+  padding-top: 22px;
+  background-image: linear-gradient(to right, black, white);
+  opacity: 0.6;
   height: 100%;
-  opacity: 0.3;
+  color: #e3e3e3;
 }
 
-.project h1 {
-  padding-top: 10px;
-  text-align: left;
-  color: white;
+.quotes h2, .quotes h4 {
+  text-transform: uppercase;
+  text-shadow: 2px 1px 10px #000;
+  font-size: 180%;
 }
-
-.p-row {
-  padding-top: 20px;
-  color: white;
-}
-
-.p-text{
-  padding-left: 20px;
-  padding-right: 20px;
-}
-
-.p-img {
-  width: 230px;
-}
-
 
 /*---------- Education ----------*/
 .education {
@@ -231,9 +218,9 @@ footer {
 
 /*---------- Color Bars ----------*/
 .bar {
-    width: 100px;
-    height: 6px;
-    margin-bottom: 32px;
+  width: 100px;
+  height: 6px;
+  margin-bottom: 32px;
 }
 
 .purple {
@@ -288,6 +275,28 @@ footer {
   .sidepadding {
     padding: 0 20px 0 20px;
   }
+
+  .quotes-bg {
+    background-image: url(../img/study.jpeg);
+    background-repeat: no-repeat;
+    height: 100px;
+    margin-top: 48px;
+  }
+
+  .quotes {
+    padding-left: 6%;
+    padding-top: 22px;
+    background-image: linear-gradient(to right, black, white);
+    opacity: 0.6;
+    height: 100%;
+    color: #e3e3e3;
+  }
+
+  .quotes h2, .quotes h4 {
+    text-transform: uppercase;
+    text-shadow: 2px 1px 10px #000;
+    font-size: 150%;
+  }
 }
 
 @media (max-width: 992px) {
@@ -308,6 +317,28 @@ footer {
     font-weight: 500%;
     transform: translateY(110%);
     color: #e0e0e4;
+  }
+
+  .quotes-bg {
+    background-image: url(../img/study.jpeg);
+    background-repeat: no-repeat;
+    height: 110px;
+    margin-top: 48px;
+  }
+
+  .quotes {
+    padding-left: 96px;
+    padding-top: 22px;
+    background-image: linear-gradient(to right, black, white);
+    opacity: 0.6;
+    height: 100%;
+    color: #e3e3e3;
+  }
+
+  .quotes h2, .quotes h4 {
+    text-transform: uppercase;
+    text-shadow: 2px 1px 10px #000;
+    font-size: 160%;
   }
 }
 
@@ -338,6 +369,28 @@ footer {
   .sidepadding {
     padding: 0 20px 0 20px;
   }
+
+  .quotes-bg {
+    background-image: url(../img/study.jpeg);
+    background-repeat: no-repeat;
+    height: 100px;
+    margin-top: 48px;
+  }
+
+  .quotes {
+    padding-left: 6%;
+    padding-top: 22px;
+    background-image: linear-gradient(to right, black, white);
+    opacity: 0.6;
+    height: 100%;
+    color: #e3e3e3;
+  }
+
+  .quotes h2, .quotes h4 {
+    text-transform: uppercase;
+    text-shadow: 2px 1px 10px #000;
+    font-size: 150%;
+  }
 }
 
 @media (max-width: 768px) {
@@ -358,6 +411,28 @@ footer {
     font-weight: 500%;
     transform: translateY(140%);
     color: #e0e0e4;
+  }
+
+  .quotes-bg {
+    background-image: url(../img/study.jpeg);
+    background-repeat: no-repeat;
+    height: 90px;
+    margin-top: 40px;
+  }
+
+  .quotes {
+    padding-left: 96px;
+    padding-top: 22px;
+    background-image: linear-gradient(to right, black, white);
+    opacity: 0.6;
+    height: 100%;
+    color: #e3e3e3;
+  }
+
+  .quotes h2, .quotes h4 {
+    text-transform: uppercase;
+    text-shadow: 2px 1px 10px #000;
+    font-size: 110%;
   }
 }
 
@@ -396,6 +471,28 @@ footer {
   .sidepadding {
     padding: 0 10px 0 10px;
   }
+
+  .quotes-bg {
+    background-image: url(../img/study.jpeg);
+    background-repeat: no-repeat;
+    height: 80px;
+    margin-top: 30px;
+  }
+
+  .quotes {
+    padding-left: 6%;
+    padding-top: 3%;
+    background-image: linear-gradient(to right, black, white);
+    opacity: 0.6;
+    height: 100%;
+    color: #e3e3e3;
+  }
+
+  .quotes h2, .quotes h4 {
+    text-transform: uppercase;
+    text-shadow: 2px 1px 10px #000;
+    font-size: 110%;
+  }
 }
 
 @media (max-width: 576px) {
@@ -419,12 +516,41 @@ footer {
     color: #e0e0e4;
   }
 
+  .quotes-bg {
+    background-image: url(../img/study.jpeg);
+    background-repeat: no-repeat;
+    height: 46px;
+    margin-top: 30px;
+  }
+
   .padding {
     padding: 30px 12px 30px 12px;
   }
 
   .sidepadding {
     padding: 0 10px 0 10px;
+  }
+
+  .quotes-bg {
+    background-image: url(../img/study.jpeg);
+    background-repeat: no-repeat;
+    height: 60px;
+    margin-top: 30px;
+  }
+
+  .quotes {
+    padding-left: 8%;
+    padding-top: 12px;
+    background-image: linear-gradient(to right, black, white);
+    opacity: 0.6;
+    height: 100%;
+    color: #e3e3e3;
+  }
+
+  .quotes h2, .quotes h4 {
+    text-transform: uppercase;
+    text-shadow: 2px 1px 10px #000;
+    font-size: 88%;
   }
 }
 
@@ -450,12 +576,35 @@ footer {
     color: #e0e0e4;
   }
 
+
+  .quotes-bg {
+    background-image: url(../img/study.jpeg);
+    background-repeat: no-repeat;
+    height: 46px;
+    margin-top: 30px;
+  }
+
   .padding {
     padding: 30px 12px 30px 12px;
   }
 
   .sidepadding {
     padding: 0 10px 0 10px;
+  }
+
+  .quotes {
+    padding-left: 6%;
+    padding-top: 1.6%;
+    background-image: linear-gradient(to right, black, white);
+    opacity: 0.6;
+    height: 100%;
+    color: #e3e3e3;
+  }
+
+  .quotes h2, .quotes h4 {
+    text-transform: uppercase;
+    text-shadow: 2px 1px 10px #000;
+    font-size: 70%;
   }
 }
 
@@ -487,6 +636,28 @@ footer {
 
   .sidepadding {
     padding: 0 10px 0 10px;
+  }
+
+  .quotes-bg {
+    background-image: url(../img/study.jpeg);
+    background-repeat: no-repeat;
+    height: 46px;
+    margin-top: 30px;
+  }
+
+  .quotes {
+    padding-left: 10%;
+    padding-top: 3%;
+    background-image: linear-gradient(to right, black, white);
+    opacity: 0.6;
+    height: 100%;
+    color: #e3e3e3;
+  }
+
+  .quotes h2, .quotes h4 {
+    text-transform: uppercase;
+    text-shadow: 2px 1px 10px #000;
+    font-size: 60%;
   }
 }
 
